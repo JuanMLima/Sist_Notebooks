@@ -15,12 +15,9 @@ function cadastraSaida(e){
         hora: time.getHours(),
         minutos: time.getMinutes()
 
-    
-
     }
 
- 
-
+    
     console.log(aluno);
 
     if(localStorage.getItem('carrinhos') === null){
@@ -34,7 +31,7 @@ function cadastraSaida(e){
     }
 
     mostraCarrinho();
-
+    form.reset();
     e.preventDefault();
 }
 
