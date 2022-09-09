@@ -1,16 +1,18 @@
 <?php
 
-    $dbHost = 'localhost';
+    $dbHost = 'ip-host';
     $dbUsername = 'root';
     $dbPassword = '';
-    $dbName = 'formnotes';
+    $dbName = 'Nome do formulario';
 
-    $conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName)
+    $conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 
-    if($conexao -> connect_erro){
+  /*  if($conexao->connect_errno)   
+    {
         echo "erro";
     }
-    else{
-        echo "conexão funcionando"
+else
+    {
+        echo "conexão funcionando";
     }
-?>
+?>*/

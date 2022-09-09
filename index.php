@@ -1,3 +1,19 @@
+﻿<?php
+    date_default_timezone_set('America/Sao_Paulo');
+    if(isset($_POST['submit']))
+    {
+        $DateAndTime = date('Y-m-d H:i:s', time());
+        include_once('config.php');
+        $nomeAluno = $_POST['nomeAluno'];
+        $matricula = $_POST['matricula'];
+        $nnote = $_POST['nnote'];
+        $sala = $_POST['sala'];
+
+        $result = mysqli_query($conexao, "INSERT INTO tabalunos(DateAndTime,nomeAluno,matricula,nnote,sala) VALUES ('$DateAndTime','$nomeAluno','$matricula','$nnote','$sala')");
+
+    }
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,7 +27,9 @@
                  <br>
                  <br>
         
-            <form id="formulario">
+            <form action="index.php" method="POST" id="formulario">
+        </div>
+
             <div class="from-group ">
                 <label><h5>Nome do Aluno:</h5></label>
                 <input type="text" id="nomeAluno" name="nomeAluno" class="form-control">
@@ -24,7 +42,7 @@
 
         <div class="from-group ">
             <label><h5>Nº Note:</h5></label>
-            <input type="number" id="nnote" name="nnote" class="form-control">
+            <input type="text" id="nnote" name="nnote" class="form-control">
             <br>
     </div>
         <div class="from-group ">
@@ -32,7 +50,7 @@
             <input type="text" id="sala" name="sala" class="form-control">
             <br>
     </div>
-        <button type="submit" class="btn btn-primary">Adicionar</button>
+        <button type="submit" name="submit" id="submit" class="btn btn-primary">Adicionar</button>
     </form>
     </div>
     </div>
@@ -55,12 +73,12 @@
     </div>
 
 </div>
-    
+
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
 
-    <div align="center" ><small>By: DefAlt </small></div>
+    <div align="center" ><small>Criado por - Juan Menezes </small></div>
 
 </body>
     
