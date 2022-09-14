@@ -10,7 +10,8 @@ O sistema é. }
 
 
 <br><br>
-![image](https://user-images.githubusercontent.com/99377147/188473842-7eb0b701-0828-432e-8acf-2f829077f868.png)
+![image](https://user-images.githubusercontent.com/99377147/190051461-733e1a14-d4c2-4a91-a426-edea2f73b9a1.png)
+
 
 
 <div align="center"><h4>(Sistema em aprimoramento)</h4></div>
