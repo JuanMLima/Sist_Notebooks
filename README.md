@@ -4,7 +4,11 @@
 Sistema de gerenciamento de entrada e saída de notebooks com configuração para conexão ao banco de dados. 
 
 <h3>Usabilidade</h3>
-{ Adicionando as informações, você registra os dados para gerenciar a saída de notebooks. }
+1- Crie um banco de dados MySQL com as variáveis equivalentes as da aplicação.
+2- Baixe a aplicação
+3- Você pode facilitar a instalação em seu Local Host, usando XAMPP
+4- Conecte o banco de dados a aplicação, mudando as configurações de conexão em config.php
+5- Rode a aplicação! =D 
 
 
 <br><br>
