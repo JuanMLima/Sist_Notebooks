@@ -1,9 +1,7 @@
 # Sist_Notebooks
 
 <h3>Motivação</h3>
-{ Criei um sistema dimples para gerenciar os notebooks que saiam para uso dos alunos na escola, já que estavamos anotando em uma planilha a mão.
-Poderia ter feito em Excel? Sim! Mas assim eu não ganharia um pouco mais de experiencia, e perderia a oportunidade de demonstrar pró atividade. 
-O sistema é. }
+Sistema de gerenciamento de entrada e saída de notebooks com configuração para conexão ao banco de dados. 
 
 <h3>Usabilidade</h3>
 { Adicionando as informações, você registra os dados para gerenciar a saída de notebooks. }
